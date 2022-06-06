@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    .row{
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .item{
+            align-items: center;
+            margin: auto;
+        }
+    }
+}
+
